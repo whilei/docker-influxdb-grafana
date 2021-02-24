@@ -2,7 +2,7 @@
 
 set -e
 
-docker build -t docker-influxdb-grafana-img .
+# docker build -t docker-influxdb-grafana-img .
 
 docker run -d \
 	--name docker-influxdb-grafana \
